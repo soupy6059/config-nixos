@@ -50,8 +50,6 @@
   services.displayManager.sddm.enable = true;
   services.desktopManager.plasma6.enable = true;
 
-  services.displayManager.wayland.enable = true;
-
   # Configure keymap in X11
   services.xserver.xkb = {
     layout = "us";
@@ -109,22 +107,7 @@
 	valgrind # c mem checker
 	gdb # c debugger
 	discord	# discord.
-
-	# Hyprland essentials
-	hyprland
-	waybar  # Status bar
-	dunst   # Notification daemon
-	rofi    # Application launcher
-	swww    # Wallpaper manager
-	kitty   # Terminal emulator
-
-	# Additional useful Wayland apps
-	wl-clipboard  # Clipboard support
-	wofi          # Alternative launcher
-	mako          # Another notification daemon
-	swaylock      # Screen locking
-	swayidle      # Idle management
-	];
+  ];
 
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
