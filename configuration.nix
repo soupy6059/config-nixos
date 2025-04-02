@@ -97,7 +97,6 @@
   environment.systemPackages = with pkgs; [
   	vim # text editor
   	wget # ? idk default
-	pkgs.brave # browser
 	pkgs.neofetch # nice looking intro
 	btop # pc monitor
 	git # version control & remote
@@ -106,7 +105,17 @@
 	clang # c compiler
 	valgrind # c mem checker
 	gdb # c debugger
-	discord	# discord.
+
+	ncurses # c window library
+
+	## software
+	pkgs.brave # browser
+	discord	# msgs
+	spotify # music
+  ];
+
+  fonts.fonts = with pkgs; [
+    jetbrains-mono 
   ];
 
   # Some programs need SUID wrappers, can be configured further or are

@@ -7,6 +7,7 @@ if [[ ! -f ~/Documents/todo/todo_${todays_date}.md ]]; then
 fi
 
 alias todo="~/.todo_script.sh"
+alias q="exit"
 
 # cleanup
 rm ~/texput.log 2> /dev/null 1>&2
