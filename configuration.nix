@@ -107,6 +107,7 @@
 	gdb # c debugger
 
 	ncurses # c window library
+	raylib # c raylib library
 
 	## software
 	pkgs.brave # browser
