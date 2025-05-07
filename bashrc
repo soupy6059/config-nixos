@@ -10,6 +10,13 @@ alias todo="~/.todo_script.sh"
 alias q="exit"
 alias :q="exit"
 alias za="zathura --fork"
+alias nixc="sudo vim /etc/nixos/configuration.nix"
+alias nixr="sudo nixos-rebuild switch"
+
+# school | cs246
+alias sst="ssh c6aitken@linux.student.cs.uwaterloo.ca"
+alias g++20="g++ -std=c++20 -fmodules-ts -Wall -g"
+alias g++20h="g++ -std=c++20 -fmodules-ts -c -x c++-system-header"
 
 # cleanup
 rm ~/texput.log 2> /dev/null 1>&2
@@ -17,5 +24,4 @@ rm ~/texput.log 2> /dev/null 1>&2
 # making backups in ~/Documents/.my_config/
 cp /etc/nixos/configuration.nix ~/Documents/.my_config/configuration.nix
 cp ~/.bashrc ~/Documents/.my_config/bashrc
-
 
