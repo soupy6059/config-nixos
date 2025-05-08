@@ -1,4 +1,5 @@
 # NEOFETCH
+```txt
           ▗▄▄▄       ▗▄▄▄▄    ▄▄▄▖            cartera@nixos 
           ▜███▙       ▜███▙  ▟███▛            ------------- 
            ▜███▙       ▜███▙▟███▛             OS: NixOS 24.11.715908.7105ae395770 (Vicuna) x86\_64 
@@ -19,13 +20,14 @@
           ▟███▛▜███▙       ▜███▙                                      
          ▟███▛  ▜███▙       ▜███▙                                     
          ▝▀▀▀    ▀▀▀▀▘       ▀▀▀▘
+```
 
 # TODO
 Personally I use the todo script with no arguments, and that's recommended.
 The directories have to be set up manually.
 The git repository has to be setup manually.
 
-## Step 1: ~/.bashrc editing
+## Step 1: todo alias
 add
 ```bash
 alias todo="~/.todo\_script.sh"
