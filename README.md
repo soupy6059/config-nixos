@@ -27,12 +27,15 @@ Personally I use the todo script with no arguments, and that's recommended.
 The directories have to be set up manually.
 The git repository has to be setup manually.
 
+## Step 0: download ~/.todo\_script.sh
+Put the file in your home directory.
+
 ## Step 1: todo alias
 add
 ```bash
 alias todo="~/.todo\_script.sh"
 ```
-to your ~/.bashrc
+to your ~/.bashrc.
 
 ## Step 2: repo setup
 ```bash
