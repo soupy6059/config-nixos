@@ -33,7 +33,7 @@ Put the file in your home directory.
 ## Step 1: todo alias
 add
 ```bash
-alias todo="~/.todo\_script.sh"
+alias todo="~/.todo_script.sh"
 ```
 to your ~/.bashrc.
 
